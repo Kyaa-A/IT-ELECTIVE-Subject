@@ -1,4 +1,4 @@
-package Shape;
+package Shape_Polymorphism;
 
 class Triangle extends Shape{
     Triangle(String name, int numOfSides){

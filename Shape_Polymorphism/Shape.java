@@ -1,4 +1,4 @@
-package Shape;
+package Shape_Polymorphism;
 
 public class Shape {
     String name;

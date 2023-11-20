@@ -1,4 +1,4 @@
-package Vehicles;
+package Vehicles_Abstract;
 
 public class Plane extends Vehicle {
     private int wings;
@@ -8,7 +8,6 @@ public class Plane extends Vehicle {
         this.wings = wings;
     }
 
-    @Override
     public String move() {
         return "The plane is flying.";
     }

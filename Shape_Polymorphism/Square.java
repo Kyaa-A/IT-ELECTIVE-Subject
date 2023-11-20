@@ -1,4 +1,4 @@
-package Shape;
+package Shape_Polymorphism;
 
 class Square extends Shape{
     Square(String name, int numOfSides){

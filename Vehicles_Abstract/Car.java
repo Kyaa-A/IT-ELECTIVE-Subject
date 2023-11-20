@@ -1,4 +1,4 @@
-package Vehicles;
+package Vehicles_Abstract;
 
 public class Car extends Vehicle {
     private int wheels;
@@ -8,7 +8,6 @@ public class Car extends Vehicle {
         this.wheels = wheels;
     }
 
-    @Override
     public String move() {
         return "The car is driving.";
     }

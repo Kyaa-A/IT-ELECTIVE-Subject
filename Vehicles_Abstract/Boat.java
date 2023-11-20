@@ -1,4 +1,4 @@
-package Vehicles;
+package Vehicles_Abstract;
 
 public class Boat extends Vehicle {
     private int propellers;
@@ -8,7 +8,6 @@ public class Boat extends Vehicle {
         this.propellers = propellers;
     }
 
-    @Override
     public String move() {
         return "The boat is sailing.";
     }

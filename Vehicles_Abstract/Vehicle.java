@@ -1,4 +1,4 @@
-package Vehicles;
+package Vehicles_Abstract;
 
 public abstract class Vehicle {
     protected String name;
