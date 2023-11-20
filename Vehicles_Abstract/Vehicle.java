@@ -1,21 +1,21 @@
 package Vehicles_Abstract;
 
 public abstract class Vehicle {
-    protected String name;
-    protected int speed;
+    String name;
+    int speed;
 
-    public Vehicle(String name, int speed) {
+    Vehicle(String name, int speed) {
         this.name = name;
         this.speed = speed;
     }
 
-    public abstract String move();
+    abstract String move();
 
-    public String getName() {
+    String getName() {
         return name;
     }
 
-    public int getSpeed() {
+    int getSpeed() {
         return speed;
     }
 }

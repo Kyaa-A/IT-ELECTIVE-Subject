@@ -1,18 +1,18 @@
 package Vehicles_Abstract;
 
 public class Boat extends Vehicle {
-    private int propellers;
+    int propellers;
 
-    public Boat(String name, int speed, int propellers) {
+    Boat(String name, int speed, int propellers) {
         super(name, speed);
         this.propellers = propellers;
     }
 
-    public String move() {
+    String move() {
         return "The boat is sailing.";
     }
 
-    public int getPropellers() {
+    int getPropellers() {
         return propellers;
     }
 }
